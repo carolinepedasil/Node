@@ -1,28 +1,11 @@
 const chalk = require('chalk');
 const fs = require('fs');
 
-console.log(chalk.blue('vamos começar!'));
-
-//encadear métodos para colorir texto, cor de fundo e texto em negrito
-console.log(chalk.blue.bgWhite.bold('Alura'));
-
-//receber múltiplos argumentos
-console.log(chalk.blue('curso', 'de', 'NodeJS'));
-
-//métodos aninhados
-console.log(chalk.red('vermelho', chalk.underline.bgBlue('azul')));
-
-// uso de template strings e placeholders
-console.log(`
-CPU: ${chalk.red('90%')}
-RAM: ${chalk.green('40%')}
-DISK: ${chalk.yellow('70%')}
-`);
-
-const paragrafo = 'Texto retornado por uma função';
-
-function texto(string) {
-    return string;
+function pegaArquivo(caminhoDoArquivo) {
+    const encoding = 'utf-8';
+    fs.readFile(caminhoDoArquivo, encoding, (_, texto) => { // _ -> ignora o primeiro parâmetro
+        console.log(chalk.green(texto));
+    })
 }
 
-console.log(texto(paragrafo));
+pegaArquivo('./arquivos/texto1.md');
