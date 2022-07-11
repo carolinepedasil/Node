@@ -70,4 +70,6 @@ function extraiLinks(texto) {
     - Conseguimos capturar mensagens de erro enviadas pelo NodeJS quando algo no programa não sai como o esperado utilizando a palavra-chave throw, ou lançar;
     - As “promessas” são a forma que o JavaScript utiliza para trabalhar com código assíncrono e que podemos resolvê-las utilizando em conjunto as palavras-chave async e await ou o método .then().
     - Como utilizamos classes e grupos de expressões regulares para refinar a busca por estes padrões, além dos métodos que o JavaScript tem (por exemplo match e exec) para trazer os resultados e trabalhar com eles;
+    - Como fazer estes diversos arquivos conversarem entre si através da exportação e importação de módulos com module.exports e require();
+    - Scripts são instruções que usamos para automatizar tarefas e como escrever nossos próprios scripts, incluí-los no arquivo de configuração package.json e utilizá-los para executar comandos no terminal.
 */
