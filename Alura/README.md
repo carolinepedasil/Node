@@ -8,3 +8,5 @@
 |                     | Node.js e JWT: autenticação com tokens                                 | 8h            |           |
 |                     | Node.js: Refresh Tokens e confirmação de cadastro                      | 10h           |           |
 |                     | NodeJS: controle de acesso e autorização com RBAC                      | 10h           |           |
+| Nest.js             |                                                                        |               |           |
+|                     | Nest.js: criando uma API Restful                                       | 10h           | ✅        |
