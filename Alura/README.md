@@ -9,7 +9,7 @@
 |                        | Node.js: Refresh Tokens e confirmação de cadastro                      | 10h           |           |
 |                        | NodeJS: controle de acesso e autorização com RBAC                      | 10h           |           |
 | Avançando em Node.js   |                                                                        |               |           |
-|                        | Node.js: testes unitários e de integração                              | 12h           |           |
+|                        | Node.js: testes unitários e de integração                              | 12h           | ✅        |
 |                        | Node.js: criptografia e tokens JWT                                     | 10h           |           |
 | Serverless com Node.js |                                                                        |               |           |
 |                        | Serverless com Node.js: aplicações eficientes na Cloud                 | 10h           | ✅        |
