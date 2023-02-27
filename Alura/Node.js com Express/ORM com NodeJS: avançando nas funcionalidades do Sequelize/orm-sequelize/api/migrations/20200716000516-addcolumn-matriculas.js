@@ -7,6 +7,6 @@ module.exports = {
     })
   },
   down: (queryInterface) => {
-    return queryInterface.dropTable('Matriculas', 'deletedAt')
+    return queryInterface.removeColumn('Matriculas', 'deletedAt')
   }
 }
