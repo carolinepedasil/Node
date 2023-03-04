@@ -17,4 +17,4 @@
 |                        | NodeJS: adicionando CI ao projeto e deploy no Google Cloud                     | 08h           |           |
 | Nest.js                |                                                                                |               |           |
 |                        | Nest.js: criando uma API Restful                                               | 10h           | ✅        |
-|                        | APIs REST com NestJS: buscas, validação, serialização e detalhes arquiteturais | 10h           |           |
+|                        | APIs REST com NestJS: buscas, validação, serialização e detalhes arquiteturais | 10h           | ✅        |
