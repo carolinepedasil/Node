@@ -12,7 +12,7 @@
 |                        | [Node.js: testes unitários e de integração](https://github.com/carolinepedasil/Node/tree/main/Alura/Avançando%20em%20Node.js/Node.js:%20testes%20unitários%20e%20de%20integração) | 12h           | ✅        |
 |                        | [Node.js: criptografia e tokens JWT](https://github.com/carolinepedasil/Node/tree/main/Alura/Avançando%20em%20Node.js/Node.js:%20criptografia%20e%20tokens%20JWT) | 10h           | ✅        |
 |                        | [Node.js: Refresh Tokens e confirmação de cadastro](https://github.com/carolinepedasil/Node/tree/main/Alura/Avançando%20em%20Node.js/Node.js:%20Refresh%20Tokens%20e%20confirmação%20de%20cadastro) | 10h           | ✅          |
-|                        | NodeJS: controle de acesso e autorização com RBAC                              | 10h           |           |
+|                        | [NodeJS: controle de acesso e autorização com RBAC](https://github.com/carolinepedasil/Node/tree/main/Alura/Avançando%20em%20Node.js/NodeJS:%20controle%20de%20acesso%20e%20autorização%20com%20RBAC) | 10h           | ✅         |
 | Serverless com Node.js |                                                                                |               |           |
 |                        | [Serverless com Node.js: aplicações eficientes na Cloud](https://github.com/carolinepedasil/Node/tree/main/Alura/Serverless%20com%20Node.js/Serverless%20com%20Node.js:%20aplicações%20eficientes%20na%20Cloud) | 10h           | ✅        |
 |                        | NodeJS: adicionando CI ao projeto e deploy no Google Cloud                     | 08h           |           |
