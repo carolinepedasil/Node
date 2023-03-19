@@ -14,14 +14,14 @@ class InternalServerError extends Error {
 
 class NaoEncontrado extends Error {
   constructor (entidade) {
-    const mensagem = `Não foi possível encontrar o usuário ${entidade}`
+    const mensagem = `Não foi possível encontrar ${entidade}`
     super(mensagem)
     this.name = 'NaoEncontrado'
   }
 }
 
 class NaoAutorizado extends Error {
-  constructor (entidade) {
+  constructor () {
     const mensagem = 'Não foi possível acessar esse recurso'
     super(mensagem)
     this.name = 'NaoAutorizado'
