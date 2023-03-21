@@ -11,7 +11,7 @@ module.exports = {
   async pegarPorId (id) {
     const encontrado = await Modelo.findOne({
       where: {
-        id
+        id: id
       }
     })
 
@@ -25,13 +25,13 @@ module.exports = {
     return Modelo.update(
       dadosParaAtualizar,
       {
-        where: { id }
+        where: { id: id }
       }
     )
   },
   remover (id) {
     return Modelo.destroy({
-      where: { id }
+      where: { id: id }
     })
   }
 }
