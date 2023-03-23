@@ -1,29 +1,40 @@
 jest.mock('../../../api/rotas/fornecedores/TabelaFornecedor')
+const TabelaFornecedor = require('../../../api/rotas/fornecedores/TabelaFornecedor')
 const Fornecedor = require('../../../api/rotas/fornecedores/Fornecedor')
+const CampoInvalido = require('../../../api/erros/CampoInvalido')
 
-describe('classe Fornecedor', () => {
-  test('o método validar() retorna true', () => {
+describe('class Fornecedor', () => {
+  it('validar() emite erro para "empresa"', async () => {
     const fornecedor = new Fornecedor({
-      empresa: 'Gatito',
-      email: 'contato@gatito.com.br',
+      email: 'rodrigo@teste.com',
       categoria: 'brinquedos'
     })
 
-    expect(fornecedor.validar()).toBe(true)
+    try {
+      await fornecedor.validar()
+    } catch (e) {
+      expect(e).toBeInstanceOf(CampoInvalido)
+      expect(e.message).toEqual(expect.stringContaining('empresa'))
+    }
   })
 
-  test('o método criar() foi executado com sucesso', async () => {
+  it('criar() persiste os dados no banco', async () => {
+    const inserir = jest.fn(() => ({
+      id: 5,
+      dataCriacao: new Date(),
+      dataAtualizacao: new Date(),
+      versao: 0
+    }))
+
+    TabelaFornecedor.definirResultado('inserir', inserir)
     const fornecedor = new Fornecedor({
-      empresa: 'Gatito',
-      email: 'contato@gatito.com.br',
+      empresa: 'Brinquedos para cães',
+      email: 'rodrigo@teste.com',
       categoria: 'brinquedos'
     })
 
     await fornecedor.criar()
-
-    expect(fornecedor.id).toBe(500)
-    expect(fornecedor.dataCriacao).toBe('10/12/3420')
-    expect(fornecedor.dataAtualizacao).toBe('10/12/3420')
-    expect(fornecedor.versao).toBe(90)
+    expect(inserir).toHaveBeenCalled()
+    expect(fornecedor.id).toEqual(5)
   })
 })

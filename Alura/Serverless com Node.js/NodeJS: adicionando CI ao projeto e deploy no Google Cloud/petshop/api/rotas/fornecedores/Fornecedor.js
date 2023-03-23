@@ -71,8 +71,6 @@ class Fornecedor {
         throw new CampoInvalido(campo)
       }
     })
-
-    return true
   }
 }
 

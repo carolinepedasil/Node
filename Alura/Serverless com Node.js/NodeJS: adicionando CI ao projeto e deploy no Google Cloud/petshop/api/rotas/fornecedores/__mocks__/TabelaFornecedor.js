@@ -1,25 +1,28 @@
+const resultadosPorFuncao = {
+  listar: () => [],
+  inserir: () => ({}),
+  pegarPorId: () => ({}),
+  atualizar: () => ({}),
+  remover: () => ({})
+}
+
 module.exports = {
+  definirResultado (nomeFuncao, valor) {
+    resultadosPorFuncao[nomeFuncao] = valor
+  },
   listar () {
-    return []
+    return resultadosPorFuncao.listar()
   },
   inserir (fornecedor) {
-    return {
-      id: 500,
-      dataCriacao: '10/12/3420',
-      dataAtualizacao: '10/12/3420',
-      versao: 90
-    }
+    return resultadosPorFuncao.inserir()
   },
   async pegarPorId (id) {
-    return {
-      id: 500,
-      dataCriacao: '10/12/3420',
-      dataAtualizacao: '10/12/3420',
-      versao: 90
-    }
+    return resultadosPorFuncao.pegarPorId()
   },
-  async atualizar (id, dadosParaAtualizar) {
+  atualizar (id, dadosParaAtualizar) {
+    return resultadosPorFuncao.atualizar()
   },
-  async remover (id) {
+  remover (id) {
+    return resultadosPorFuncao.remover()
   }
 }
