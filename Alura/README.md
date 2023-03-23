@@ -15,7 +15,7 @@
 |                        | [NodeJS: controle de acesso e autorização com RBAC](https://github.com/carolinepedasil/Node/tree/main/Alura/Avançando%20em%20Node.js/NodeJS:%20controle%20de%20acesso%20e%20autorização%20com%20RBAC) | 10h           | ✅         |
 | Serverless com Node.js |                                                                                |               |           |
 |                        | [Serverless com Node.js: aplicações eficientes na Cloud](https://github.com/carolinepedasil/Node/tree/main/Alura/Serverless%20com%20Node.js/Serverless%20com%20Node.js:%20aplicações%20eficientes%20na%20Cloud) | 10h           | ✅        |
-|                        | NodeJS: adicionando CI ao projeto e deploy no Google Cloud                     | 08h           |           |
+|                        | [NodeJS: adicionando CI ao projeto e deploy no Google Cloud](https://github.com/carolinepedasil/Node/tree/main/Alura/Serverless%20com%20Node.js/NodeJS:%20adicionando%20CI%20ao%20projeto%20e%20deploy%20no%20Google%20Cloud) | 08h           | ✅         |
 | Nest.js                |                                                                                |               |           |
 |                        | [Nest.js: criando uma API Restful](https://github.com/carolinepedasil/Node/tree/main/Alura/Nest.js/Nest.js:%20criando%20uma%20API%20Restful) | 10h           | ✅        |
 |                        | [APIs REST com NestJS: buscas, validação, serialização e detalhes arquiteturais](https://github.com/carolinepedasil/Node/tree/main/Alura/Nest.js/APIs%20REST%20com%20NestJS:%20buscas%2C%20validação%2C%20serialização%20e%20detalhes%20arquiteturais) | 10h           | ✅        |
