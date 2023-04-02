@@ -2,7 +2,7 @@
 | ---------------------- | ------------------------------------------------------------------------------ | ------------- | --------- |
 | Node.js com Express    |                                                                                |               |           |
 |                        | [NodeJS: criando sua biblioteca](https://github.com/carolinepedasil/Node/tree/main/Alura/Node.js%20com%20Express/NodeJS:%20criando%20sua%20biblioteca) | 10h           | ✅        |
-|                        | Node.js: criando sua primeira biblioteca                                       | 12h           |           |
+|                        | [Node.js: criando sua primeira biblioteca](https://github.com/carolinepedasil/Node/tree/main/Alura/Node.js%20com%20Express/Node.js:%20criando%20sua%20primeira%20biblioteca) | 12h           | ✅         |
 |                        | Node: sua primeira API com Express                                             | 08h           |           |
 |                        | [Node.js: continue seu projeto full stack criando uma API com Express](https://github.com/carolinepedasil/Node/tree/main/Alura/Node.js%20com%20Express/Node.js:%20continue%20seu%20projeto%20full%20stack%20criando%20uma%20API%20com%20Express/alura-books-server) | 08h           | ✅        |
 |                        | [Node.js: lidando com buscas, filtros, paginação e erros em uma API](https://github.com/carolinepedasil/Node/tree/main/Alura/Node.js%20com%20Express/Node.js:%20lidando%20com%20buscas%2C%20filtros%2C%20paginação%20e%20erros%20em%20uma%20API) | 10h           | ✅         |
