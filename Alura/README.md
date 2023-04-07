@@ -3,7 +3,6 @@
 | Node.js com Express    |                                                                                |               |           |
 |                        | [NodeJS: criando sua biblioteca](https://github.com/carolinepedasil/Node/tree/main/Alura/Node.js%20com%20Express/NodeJS:%20criando%20sua%20biblioteca) | 10h           | ✅        |
 |                        | [Node.js: criando sua primeira biblioteca](https://github.com/carolinepedasil/Node/tree/main/Alura/Node.js%20com%20Express/Node.js:%20criando%20sua%20primeira%20biblioteca) | 12h           | ✅         |
-|                        | Node: sua primeira API com Express                                             | 08h           |           |
 |                        | [Node.js: continue seu projeto full stack criando uma API com Express](https://github.com/carolinepedasil/Node/tree/main/Alura/Node.js%20com%20Express/Node.js:%20continue%20seu%20projeto%20full%20stack%20criando%20uma%20API%20com%20Express/alura-books-server) | 08h           | ✅        |
 |                        | [Node.js: lidando com buscas, filtros, paginação e erros em uma API](https://github.com/carolinepedasil/Node/tree/main/Alura/Node.js%20com%20Express/Node.js:%20lidando%20com%20buscas%2C%20filtros%2C%20paginação%20e%20erros%20em%20uma%20API) | 10h           | ✅         |
 |                        | [Node.js: API Rest com Express e MongoDB](https://github.com/carolinepedasil/Node/tree/main/Alura/Node.js%20com%20Express/Node.js:%20API%20Rest%20com%20Express%20e%20MongoDB) | 12h           | ✅        |
@@ -12,6 +11,7 @@
 | Avançando em Node.js   |                                                                                |               |           |
 |                        | [Node.js: testes unitários e de integração](https://github.com/carolinepedasil/Node/tree/main/Alura/Avançando%20em%20Node.js/Node.js:%20testes%20unitários%20e%20de%20integração) | 12h           | ✅        |
 |                        | [Node.js: criptografia e tokens JWT](https://github.com/carolinepedasil/Node/tree/main/Alura/Avançando%20em%20Node.js/Node.js:%20criptografia%20e%20tokens%20JWT) | 10h           | ✅        |
+|                        | [Node.JS: melhorando o fluxo de desenvolvimento e integração de sua equipe](https://github.com/carolinepedasil/Node/tree/main/Alura/Avançando%20em%20Node.js/Node.JS:%20melhorando%20o%20fluxo%20de%20desenvolvimento%20e%20integração%20de%20sua%20equipe) | 12h           | ✅         |
 |                        | [Node.js: Refresh Tokens e confirmação de cadastro](https://github.com/carolinepedasil/Node/tree/main/Alura/Avançando%20em%20Node.js/Node.js:%20Refresh%20Tokens%20e%20confirmação%20de%20cadastro) | 10h           | ✅          |
 |                        | [NodeJS: controle de acesso e autorização com RBAC](https://github.com/carolinepedasil/Node/tree/main/Alura/Avançando%20em%20Node.js/NodeJS:%20controle%20de%20acesso%20e%20autorização%20com%20RBAC) | 10h           | ✅         |
 | Serverless com Node.js |                                                                                |               |           |
